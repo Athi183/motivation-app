@@ -1,0 +1,107 @@
+.mindful-box {
+    display: inline-block;
+    padding: 2rem 3rem;
+    background-color: #ffffffbb;
+    color: #333;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    width: 700px; /* Adjust width if needed */
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .mindful-box:hover {
+    transform: scale(1.05);
+    background-color: #ffffffb4;
+  }
+  
+  .mindful-container {
+    padding: 1.5rem;
+  }
+  
+  .breathing-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #4caf50;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: pulse 2s infinite;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    color: #4caf50;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  .timer {
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    color: #4caf50;
+  }
+  
+  .start-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .start-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .dropdown-container {
+    margin-top: 20px;
+  }
+  
+  .dropdown-container label {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .dropdown-container select {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fffafc;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .relax-msg {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

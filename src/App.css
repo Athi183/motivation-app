@@ -10,16 +10,16 @@ body {
   background-size: cover;
   color: white;
   align-items: flex-start; /* Align children at the top */
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .app {
   text-align: center;
-  padding: 3rem; /* Reduced padding for better spacing */
+  padding: 2rem; /* Reduced padding for better spacing */
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(12, 5, 109, 0.603);
-  max-width: 1000px;
+  max-width: 2000px;
   margin: auto;
-  color: rgba(1, 1, 63, 0.932);
+  color: rgba(11, 2, 100, 0.932);
   position: relative;
   z-index: 1;
   flex-grow: 1; /* Allow the app to grow and take available space */
@@ -72,19 +72,19 @@ body {
   object-fit: cover;
   z-index: -1;
   pointer-events: none;
-  filter: opacity(60%);
+  filter: opacity(70%);
 }
 
 footer {
   margin-top: auto; /* Ensures footer stays at the bottom */
-  padding: 1rem 0;
+  padding: 2rem 0;
   text-align: center;
   font-size: 1rem;
 }
 
 /* Additional padding for the footer */
 footer small {
-  color: white;
+  color: rgb(10, 10, 10);
   font-size: 1rem;
 }
 
@@ -145,7 +145,7 @@ footer small {
   margin-top: 1rem;
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #4CAF50;
+  background-color: #1a0202;
   color: white;
   border: none;
   border-radius: 12px;
@@ -154,5 +154,69 @@ footer small {
 }
 
 .music-controls button:hover {
-  background-color: #45a049;
+  background-color: #041da7;
+}
+.mood-box {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 5rem 2rem;
+  background-color: #ffffffbb;
+  color: #1a1717;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76);
+}
+.mood-box:hover {
+  transform: scale(1.05);
+  background-color: #ffa94d;
+}
+
+.lazy-button {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+  padding: 6rem 2rem;
+  background-color: #ffffffbb;
+  color: #222;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.815);
+}
+
+.lazy-button:hover {
+  transform: scale(1.05);
+  background-color: #ffa94d;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.mindful-button {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+  padding: 6rem 2rem;
+  background-color: #ffffffbb;
+  color: #222;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.815);
+}
+
+.mindful-button:hover {
+  transform: scale(1.03);
+  background-color: #ffa94d;
 }

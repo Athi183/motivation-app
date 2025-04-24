@@ -1,0 +1,42 @@
+.mood-container {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    color: #000;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .mood-options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .mood-btn {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .mood-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  .mood-btn.selected {
+    border: 2px solid #333;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .mood-message {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
