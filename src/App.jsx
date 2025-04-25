@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />{/* ✅ New route */}
         <Route path="/mood" element={<MoodPage />} />
         <Route path="/lazy" element={<LazyNudge />} />
         <Route path="/mindful" element={<MindfulMinute />} /> {/* ✅ New route */}
